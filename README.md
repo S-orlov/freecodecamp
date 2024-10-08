@@ -1,4 +1,4 @@
-## freecodecamp
+## freeCodeCamp ...
 ## one task
 ### Step 3
 The teacher is really happy with the program you have created so far. But now they want to have an easy way to check if a student has a passing grade. A passing grade is anything that is not an "F".
@@ -10,9 +10,9 @@ Complete the function hasPassingGrade that takes a student score as a parameter.
 Use the getGrade function to get the student's grade. Then check if the grade is passing or not.
 
 ##
-
-## function getAverage(scores) {
-  ### let sum = 0;
+```
+function getAverage(scores) {
+ let sum = 0;
   for (let i=0; i < scores.length; i++) {
     sum += parseInt(scores[i]);
   }
@@ -42,4 +42,6 @@ function hasPassingGrade(score) {
 console.log(hasPassingGrade(100));
 console.log(hasPassingGrade(53));
 console.log(hasPassingGrade(87));
+```
 
+## ...
